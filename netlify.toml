@@ -8,3 +8,10 @@
 #  from = "/api/*"
 #  to = "/.netlify/functions/:splat"
 #  status = 200
+[build]
+  publish = "site"            # change/remove if you don’t export frontend here
+  functions = "functions"
+
+[functions]
+  node_bundler = "esbuild"
+
