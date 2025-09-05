@@ -1,0 +1,10 @@
+[build]
+  # no site build, just functions
+  publish = "/"
+  functions = "functions"
+
+# Optional: pretty routes later
+#[[redirects]]
+#  from = "/api/*"
+#  to = "/.netlify/functions/:splat"
+#  status = 200
